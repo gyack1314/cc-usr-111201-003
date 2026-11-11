@@ -94,5 +94,6 @@
   ],
   "max_iterations": 500,
   "parameter_tolerance": 1e-08,
-  "objective_tolerance": 1e-09
+  "objective_tolerance": 1e-09,
+  "decrease_tolerance": 1e-07
 }
