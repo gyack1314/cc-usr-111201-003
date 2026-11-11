@@ -1,0 +1,95 @@
+{
+  "labels": [
+    "normal",
+    "contact",
+    "blocked"
+  ],
+  "observations": [
+    {
+      "item": "x1",
+      "reviewer": "r1",
+      "label": "normal"
+    },
+    {
+      "item": "x1",
+      "reviewer": "r2",
+      "label": "normal"
+    },
+    {
+      "item": "x1",
+      "reviewer": "r3",
+      "label": "blocked"
+    },
+    {
+      "item": "x2",
+      "reviewer": "r1",
+      "label": "contact"
+    },
+    {
+      "item": "x2",
+      "reviewer": "r2",
+      "label": "normal"
+    },
+    {
+      "item": "x2",
+      "reviewer": "r3",
+      "label": "contact"
+    },
+    {
+      "item": "x3",
+      "reviewer": "r1",
+      "label": "blocked"
+    },
+    {
+      "item": "x3",
+      "reviewer": "r2",
+      "label": "blocked"
+    },
+    {
+      "item": "x4",
+      "reviewer": "r3",
+      "label": "normal"
+    },
+    {
+      "item": "x5",
+      "reviewer": "r4",
+      "label": "contact"
+    }
+  ],
+  "anchors": {},
+  "prior_alpha": [
+    2,
+    2,
+    2
+  ],
+  "confusion_alpha": [
+    [
+      4,
+      2,
+      2
+    ],
+    [
+      2,
+      4,
+      2
+    ],
+    [
+      2,
+      2,
+      4
+    ]
+  ],
+  "starts": [
+    {
+      "id": "diagonal",
+      "diagonal": 0.8
+    },
+    {
+      "id": "near-flat",
+      "diagonal": 0.4
+    }
+  ],
+  "max_iterations": 500,
+  "parameter_tolerance": 1e-08,
+  "objective_tolerance": 1e-09
+}
